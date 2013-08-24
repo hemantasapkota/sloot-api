@@ -8,6 +8,8 @@ the entire message used for storing entities and screens.
 See [ScreenModel.proto](https://github.com/hemantasapkota/sloot-editor/blob/master/com.laex.cg2d.shared/src/com/laex/cg2d/model/ScreenModel.proto
 )
 
+You'll need to add the compiled protobuf JAR file to your classpath.
+
 Load Screen File (*.cgs)
 ========================
 
@@ -57,3 +59,8 @@ for (CGEntityAnimation anim : spandexGuy.getAnimationsList()) {
 }}
 
 ```
+
+Tips
+====
+1. A sloot editor project contains entities, screens, texture files and json files. So it is best to export the
+   entire project to your resources directory.
